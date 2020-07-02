@@ -1,5 +1,5 @@
 header{
-    background-color:rgb(24, 155, 148);
+    background-color:#2a636d;
     color: #ffffff;
     background-position: center;
     background-repeat: no-repeat;
@@ -22,8 +22,8 @@ header{
     text-align: justify ;
     align-items:center;
     padding: 0px 20px 20px;
-    background-color:rgb(250, 250, 231);
-    color: #000000;
+    background-color:#fff8f2;
+    color: #2a636d;
 
 
 }
@@ -35,13 +35,13 @@ header{
     text-align: justify ;
     align-items:center;
     padding: 0px 20px 20px;
-    background-color:rgb(250, 250, 231);
-    color: #000000;
+    background-color:#fff8f2;
+    color: #2a636d;
 
 
 }
 #informatica{
-    background-color: #606066;
+    background-color: #fff8f2;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14pt;
     display: flex;
@@ -49,7 +49,7 @@ header{
     text-align: justify ;
     align-items:center;
     padding: 0px 2px 2px;
-    color: #ffffff;
+    color: #2a636d;
 
 
 }
@@ -61,8 +61,8 @@ header{
     text-align: justify ;
     align-items:center;
     padding: 0px 20px 20px;
-    background-color:rgb(250, 250, 231);
-    color: #000000;
+    background-color:#fff8f2;
+    color: #2a636d;
 
 
 }
@@ -74,8 +74,8 @@ header{
     text-align: justify ;
     align-items:center;
     padding: 0px 20px 20px;
-    background-color: rgb(250, 250, 231);
-    color: #000000;
+    background-color: #fff8f2;
+    color: #2a636d;
 
 
 }
@@ -87,8 +87,8 @@ header{
     text-align: justify ;
     align-items:center;
     padding: 0px 20px 20px;
-    background-color:rgb(250, 250, 231);
-    color: #000000;
+    background-color:#fff8f2;
+    color: #2a636d;
 
 
 }
@@ -97,7 +97,7 @@ header{
 
 
 #rodape{
-    background-color:rgb(24, 155, 148);
+    background-color:#2a636d;
     color: #ffffff;
     text-align: center;
     align-items: center;
@@ -135,7 +135,7 @@ h1,h2,h3{
 
 }
 .menu a:hover{
-    background-color:#010101;
+    background-color:#2a636d;
     color:#ffffff;
     opacity: 50pt .4s;
 
@@ -145,17 +145,17 @@ h1,h2,h3{
 .menu ul ul li{
     float: none;
     border-bottom: solid 1px #ccc;
-    text-decoration: #000;
+    text-decoration: #ffffff;
 }
 .menu ul ul li a{
 background-color: #ffffff;
-color: #000;
+color: #2a636d;
 text-decoration: none;
 
 }
 .menu ul li:hover{
 background-color: #606060;
-color: #000000;
+color: #2a636d;
 height: 23px  ;
 text-decoration: none;
 
@@ -173,6 +173,7 @@ height: 23px;
 }
 #bt_menu{
 display: none;
+color: #ffffff;
 
 }
 label[for="bt_menu"]{
@@ -185,7 +186,9 @@ height: 50px;
 right: 0;
 position: fixed;
 transition: 100%;
-
+color:#ffff;
+background-color:#2a636d;
+border-bottom: black;
 }
 label[for="bt_menu"]{
 display: none;
@@ -219,7 +222,7 @@ label[for="bt_menu"]{
     flex-direction: column;
     text-align: justify ;
     align-items:center;
-    background-color: rgb(250, 250, 231)
+    background-color: #fff8f2;
 
     
 
