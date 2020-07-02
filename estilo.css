@@ -1,3 +1,4 @@
+
 header{
     background-color:#2a636d;
     color: #ffffff;
@@ -22,7 +23,7 @@ header{
     text-align: justify ;
     align-items:center;
     padding: 0px 20px 20px;
-    background-color:#fff8f2;
+    background-color:#ffffff;
     color: #2a636d;
 
 
@@ -35,13 +36,13 @@ header{
     text-align: justify ;
     align-items:center;
     padding: 0px 20px 20px;
-    background-color:#fff8f2;
+    background-color:#ffffff;
     color: #2a636d;
 
 
 }
 #informatica{
-    background-color: #fff8f2;
+    background-color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14pt;
     display: flex;
@@ -61,7 +62,7 @@ header{
     text-align: justify ;
     align-items:center;
     padding: 0px 20px 20px;
-    background-color:#fff8f2;
+    background-color:#ffffff;
     color: #2a636d;
 
 
@@ -74,7 +75,7 @@ header{
     text-align: justify ;
     align-items:center;
     padding: 0px 20px 20px;
-    background-color: #fff8f2;
+    background-color: #ffffff;
     color: #2a636d;
 
 
@@ -87,7 +88,7 @@ header{
     text-align: justify ;
     align-items:center;
     padding: 0px 20px 20px;
-    background-color:#fff8f2;
+    background-color:#ffffff;
     color: #2a636d;
 
 
@@ -186,7 +187,7 @@ height: 50px;
 right: 0;
 position: fixed;
 transition: 100%;
-columns: #010101;;
+color:#ffff;
 }
 label[for="bt_menu"]{
 display: none;
