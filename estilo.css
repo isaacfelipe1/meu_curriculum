@@ -186,9 +186,7 @@ height: 50px;
 right: 0;
 position: fixed;
 transition: 100%;
-color:#ffff;
-background-color:#2a636d;
-border-bottom: black;
+columns: #010101;;
 }
 label[for="bt_menu"]{
 display: none;
