@@ -1,4 +1,3 @@
-
 header{
     background-color:#2a636d;
     color: #ffffff;
@@ -137,7 +136,7 @@ h1,h2,h3{
 }
 .menu a:hover{
     background-color:#ffff;
-    color: #000000;
+    color: #ffffff;
     opacity: 50pt .4s;
 
 
@@ -174,7 +173,7 @@ height: 23px;
 }
 #bt_menu{
 display: none;
-color: #ffffff;
+color: #000000;
 
 
 }
@@ -189,10 +188,11 @@ Margin-top:62px;
 right: 0;
 position: fixed;
 transition: 100%;
-color:#ffff;
-border-radius: 19px;
+color:#ffffff;
+border-radius: 50px   ;
 text-align: center;
 align-items: center;
+background-color:#2a636d ;
 }
 label[for="bt_menu"]{
 display: none;
