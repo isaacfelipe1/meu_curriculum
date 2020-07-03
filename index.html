@@ -55,5 +55,27 @@
     </footer>
 
 </div>
+<script>
+    function typeWrite(elemento){
+        const textArray = elemento.innerHTML.split('');
+        elemento.innerHTML= '';
+       textArray.forEach((letra, i)=>{
+           setTimeout(()=> elemento.innerHTML += letra, 79 * i);
+
+           
+       });
+
+           
+            
+    }
+    const titulo = document.querySelector('h1');
+    const h2= document.querySelector('h2');
+    const p= document.querySelector('p');
+    typeWrite(titulo);
+    typeWrite(h2);
+    typeWrite(p);
+
+    
+</script>
 </body>
 </html>
