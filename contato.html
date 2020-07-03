@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contato</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
@@ -15,18 +15,25 @@
                 <li><a href="index.html" >Início</a></li>
                 <li><a href="contato.html">Contato</a></li>
             </ul>
-    
         </nav>
         <header>
             <h1>Isaac Felipe dos Lima.</h1>
             <p>Maués-Amazonas</p>
         </header>
+        <section id="email">
+            <h2>Email</h2>
+            <input type="email" name="email" id="email" title="email">
+            <button id="enviar">Enviar</button>
+            <label for="enviar"> Resultado</label>
+            
+
+        </section>
         <section id="contato">
-            <h2>Contato</h2>
-            <p>Entre em contato</p>
+            
             <div>
-                <img src="">
-                <p><a href="tel:xx55555555">Somente E-mail</a></p>
+                <img src="autor.jpg">
+                <h2>Contato</h2>
+                <p>Somente E-mail</p>
             </div>
             <div>
                 <img src="">
@@ -39,7 +46,7 @@
         </footer>
 
     </div>
-     <script>
+    <script>
         function typeWrite(elemento){
             const textArray = elemento.innerHTML.split('');
             elemento.innerHTML= '';
@@ -61,5 +68,11 @@
     
         
     </script>
+        
+            
+
+        
+        
+  
 </body>
 </html>
