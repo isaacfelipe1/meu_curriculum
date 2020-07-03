@@ -1,5 +1,4 @@
 
-
 header{
     background-color:#2a636d;
     color: #ffffff;
@@ -251,7 +250,7 @@ label[for="bt_menu"]{
 	padding: 20px;
 }
 h1::after{
-    content: '|';
+    content: '';
     opacity: 1;
     animation : pisco .7s infinite; 
 }
@@ -276,3 +275,4 @@ h1::after{
     color: #2a636d;
     margin-top: 6px;
 } 
+
