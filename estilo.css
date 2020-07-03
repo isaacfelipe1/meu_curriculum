@@ -1,4 +1,5 @@
 
+
 header{
     background-color:#2a636d;
     color: #ffffff;
@@ -113,7 +114,7 @@ h1,h2,h3{
     font-family: Arial, Helvetica, sans-serif;
 }
 .menu{
-    background-color: #606066;
+    background-color: #2a636d;
     color:#ffffff;
     text-decoration: #ffffff;
     width: 100%;
@@ -182,13 +183,17 @@ padding: 5px;
 font-family: 'Times New Roman', Times, serif;
 font-size: 29pt;
 cursor: pointer;
-width: 50px;
+width: 40px;
 height: 50px;
 Margin-top:30px;
 right: 0;
 position: fixed;
 transition: 100%;
 color:#ffff;
+background-color:#2a636d;
+border-radius: 13px;
+text-align: center;
+align-items: center;
 }
 label[for="bt_menu"]{
 display: none;
