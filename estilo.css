@@ -234,3 +234,31 @@ label[for="bt_menu"]{
 	text-align: center;
 	padding: 20px;
 }
+h1::after{
+    content: '|';
+    opacity: 1;
+    animation : pisco .7s infinite; 
+}
+@keyframes pisco{
+    0%, 100%{
+    opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+
+}
+#email{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    display: flex;
+    flex-direction: column;
+    text-align: justify ;
+    align-items:center;
+    padding: 0px 20px 20px;
+    background-color:#ffffff;
+    color: #2a636d;
+    margin-top: 6px;
+} 
+
+
