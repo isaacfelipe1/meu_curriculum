@@ -13,6 +13,10 @@ header{
     
 
 }
+Body{
+padding:0px;
+margin:0px;
+}
 #sobre{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14pt;
